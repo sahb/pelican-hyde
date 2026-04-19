@@ -1,0 +1,109 @@
+/*
+ * fonts.css
+ *
+ * Self-hosted @font-face declarations.
+ * All fonts are licensed under OFL-1.1 (SIL Open Font License).
+ * No external requests — full privacy compliance.
+ *
+ * Run download-fonts.sh to fetch the woff2 files.
+ */
+
+
+/* Literata — body text (serif) */
+
+@font-face {
+  font-family: 'Literata';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/literata-v400-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Literata';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/literata-v400-italic-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Literata';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/literata-v600-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Literata';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/literata-v600-italic-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Literata';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/literata-v700-latin.woff2') format('woff2');
+}
+
+
+/* Inter — headings & UI (sans-serif) */
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/inter-v400-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../fonts/inter-v500-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/inter-v600-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/inter-v700-latin.woff2') format('woff2');
+}
+
+
+/* Abril Fatface — sidebar title (display serif) */
+
+@font-face {
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/abril-fatface-v400-latin.woff2') format('woff2');
+}
+
+
+/* JetBrains Mono — code blocks (monospace) */
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/jetbrains-mono-v400-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../fonts/jetbrains-mono-v500-latin.woff2') format('woff2');
+}

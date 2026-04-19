@@ -25,6 +25,11 @@
 		</span>
 	{% endif %}
 
-	{% include 'fragments/disqus.html' %}
+	<!-- Comments — Remark42 (self-hosted) or Disqus (legacy) -->
+	{% if REMARK42_URL %}
+		{% include 'fragments/remark42.html' %}
+	{% elif DISQUS_SITENAME %}
+		{% include 'fragments/disqus.html' %}
+	{% endif %}
 </div>
 {% endblock %}

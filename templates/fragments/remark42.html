@@ -1,0 +1,16 @@
+{% if REMARK42_URL %}
+<div id="remark42"></div>
+<script>
+	var remark_config = {
+		host: "{{ REMARK42_URL }}",
+		site_id: "{{ REMARK42_SITE_ID | default('default') }}",
+		url: "{{ SITEURL }}/{{ article.url }}",
+		locale: "{{ REMARK42_LOCALE | default(DEFAULT_LANG) }}",
+		theme: "{{ REMARK42_THEME | default('light') }}",
+		max_shown_comments: {{ REMARK42_MAX_SHOWN | default(15) }},
+		page_title: "{{ article.title }}"
+	};
+</script>
+<script>!function(e,n){for(var o=0;o<e.length;o++){var r=n.createElement("script"),c=".js",d=n.head||n.body;"noModule"in r?(r.type="module",c=".mjs"):r.async=!0,r.defer=!0,r.src=remark_config.host+"/web/"+e[o]+c,d.appendChild(r)}}(remark_config.components||["embed"],document);</script>
+<noscript>Para ver os comentários, habilite JavaScript.</noscript>
+{% endif %}
