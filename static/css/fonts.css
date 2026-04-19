@@ -48,7 +48,32 @@
 }
 
 
-/* Inter — headings & UI (sans-serif) */
+/* Playfair Display — headings (serif, high contrast) */
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/playfair-display-v400-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/playfair-display-v700-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/playfair-display-v400-italic-latin.woff2') format('woff2');
+}
+
+
+/* Inter — sidebar, dates & UI elements (sans-serif) */
 
 @font-face {
   font-family: 'Inter';

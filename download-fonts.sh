@@ -25,7 +25,15 @@ curl -sL -o "$FONT_DIR/literata-v700-latin.woff2" \
 curl -sL -o "$FONT_DIR/literata-v600-italic-latin.woff2" \
   "https://fonts.gstatic.com/s/literata/v37/or3NQ6P12-iJxAIgLYT1PLs1Zd0nR0j7yoA6BTNYGqHFkawl.woff2"
 
-# --- Inter (headings/UI) ---
+# --- Playfair Display (headings) ---
+curl -sL -o "$FONT_DIR/playfair-display-v400-latin.woff2" \
+  "https://fonts.gstatic.com/s/playfairdisplay/v37/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvUDQZNLo_U2r.woff2"
+curl -sL -o "$FONT_DIR/playfair-display-v700-latin.woff2" \
+  "https://fonts.gstatic.com/s/playfairdisplay/v37/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKd2ukDQZNLo_U2r.woff2"
+curl -sL -o "$FONT_DIR/playfair-display-v400-italic-latin.woff2" \
+  "https://fonts.gstatic.com/s/playfairdisplay/v37/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_qiTbtbK-F2rA0s.woff2"
+
+# --- Inter (sidebar/UI) ---
 curl -sL -o "$FONT_DIR/inter-v400-latin.woff2" \
   "https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfAZ9hjQ.woff2"
 curl -sL -o "$FONT_DIR/inter-v500-latin.woff2" \
